@@ -23,10 +23,10 @@ Installation
 # Installation
 1. Clone the repository:
 
-```bash https://github.com/AshwiniSC/node-twitter-clone
+[https://github.com/AshwiniSC/node-twitter-clone](https://github.com/AshwiniSC/node-twitter-clone.git)
 
 2. Install dependencies 
-```bash cd node-twitter-clone
+cd node-twitter-clone
 npm install
 
 ## API Endpoints
@@ -52,4 +52,4 @@ GET /tweet-feed: Fetch and display a user's tweet feed. Requires a valid JWT tok
 This application uses JSON Web Tokens (JWT) for user authentication. When a user registers or logs in, a JWT token is generated and returned in the response. This token is required for accessing protected routes, such as creating tweets, following/unfollowing users, and fetching the tweet feed.
 
 To access protected routes, include the JWT token in the "Authorization" header of your requests:
-```bash Authorization: Bearer YOUR_JWT_TOKEN_HERE
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
